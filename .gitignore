@@ -7,3 +7,4 @@ keys/
 /postgres
 /src/generated/prisma
 src/generated
+/dist
