@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsnd --respawn --clear src/app.ts",
     "build": "prisma generate && rimraf ./dist && tsc",
-    "start": "prisma migrate deploy && node dist/app.js"
+    "start": "prisma generate && prisma migrate deploy && node dist/app.js"
   },
   "keywords": [],
   "author": "",
